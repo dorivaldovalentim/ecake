@@ -1,3 +1,18 @@
 * {
 	font-family: '', sans-serif;
 }
+
+/** HEADER */
+
+/* Top Menu */
+
+.navbar-top.fixed-top {
+	min-height: 100px;
+}
+
+/* Side Menu */
+
+.navbar-side.fixed-top {
+	width: 300px;
+	height: 100%;
+}
