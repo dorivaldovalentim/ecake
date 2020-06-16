@@ -2,6 +2,34 @@
 	font-family: '', sans-serif;
 }
 
+img {object-fit: contain;}
+
+.btn {
+	border-top: 1px solid rgba(0, 0, 0, .2);
+	border-right: 1px solid rgba(0, 0, 0, 1);
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-left: 1px solid rgba(0, 0, 0, 1);
+	border-radius: 10px;
+	padding: 3px 40px;
+	background-color: transparent;
+}
+
+.btn.btn-success {
+	color: #28a745;
+}
+
+.btn.btn-danger {
+	color: #dc3545;
+}
+
+.btn.btn-warning {
+	color: #ffc107;
+}
+
+.btn.btn-primary {
+	color: #007bff;
+}
+
 /** HEADER */
 
 /* Top Menu */
