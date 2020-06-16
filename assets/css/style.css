@@ -114,3 +114,10 @@ img {object-fit: contain;}
 	width: 100%;
 	text-align: center
 }
+
+/* Checkout Section */
+
+.checkout-section form {
+	margin-top: 150px;
+	padding: 40px 0;
+}
