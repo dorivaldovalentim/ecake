@@ -6256,7 +6256,7 @@ a.close.disabled {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-  display: block;
+  display: flex;
 }
 
 .carousel-item-next:not(.carousel-item-left),

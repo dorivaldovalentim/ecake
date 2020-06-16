@@ -5,13 +5,17 @@
 img {object-fit: contain;}
 
 .btn {
-	border-top: 1px solid rgba(0, 0, 0, .2);
+	border-top: 1px solid rgba(0, 0, 0, .3);
 	border-right: 1px solid rgba(0, 0, 0, 1);
-	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
 	border-left: 1px solid rgba(0, 0, 0, 1);
 	border-radius: 10px;
 	padding: 3px 40px;
-	background-color: transparent;
+	background-color: white;
+}
+
+.btn:hover {
+	color: white !important;
 }
 
 .btn.btn-success {
@@ -51,4 +55,62 @@ img {object-fit: contain;}
 	position: static;
 	padding-left: 325px;
 	padding-top: 125px;
+	padding-right: 50px;
+}
+
+/** Slide Section */
+
+.carousel {
+	width: 90%
+}
+
+.carousel-inner {
+	width: 100%
+}
+
+.slide-images img {
+	width: 100%;
+}
+
+.slide-images.active {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.slide-images .form-check {
+	position: relative;
+}
+
+.slide-images .form-check-input + span {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	border: 2px solid #00a79d;
+	border-radius: 5px;
+	width: 35px;
+	height: 35px;
+	z-index: 2;
+}
+
+.slide-images .form-check-input:checked + span {
+	background-color: #00a79d;
+}
+
+.carousel-control-prev {
+	background-color: black;
+	width: 50px;
+	left: -50px;
+}
+
+.carousel-control-next {
+	background-color: black;
+	width: 50px;
+	right: -50px;
+}
+
+.btn-slide-done {
+	bottom: 20px;
+	width: 100%;
+	text-align: center
 }
