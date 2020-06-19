@@ -133,3 +133,43 @@ img {object-fit: contain;}
 	margin-top: 50px;
 	padding-bottom: 40px;
 }
+
+/* Finalize Checkout Section */
+
+.finalize-checkout-section form {
+	padding: 40px 20px;
+}
+
+.finalize-checkout-section .form-control {
+	z-index: 10 !important;
+}
+
+.finalize-checkout-section .line {
+	content: '';
+	position: absolute;
+	border: 1px solid rgba(0, 0, 0, .3);
+	z-index: -10 !important;
+}
+
+.finalize-checkout-section .line.vertical {
+	width: 0;
+	height: 40px;
+}
+
+.finalize-checkout-section .line.horizontal {
+	width: 35px;
+	height: 0;
+}
+
+.finalize-checkout-section .line.vertical.center {
+	left: 50%;
+}
+
+.finalize-checkout-section .line.vertical.left {
+	left: 25%;
+}
+
+.finalize-checkout-section .line.horizontal.left {
+	top: 50%;
+	left: 90%;
+}
