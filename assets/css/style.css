@@ -126,3 +126,10 @@ img {object-fit: contain;}
 	margin-top: 150px;
 	padding: 40px 0;
 }
+
+/* Calendar Section */
+
+.calendar-section {
+	margin-top: 50px;
+	padding-bottom: 40px;
+}
