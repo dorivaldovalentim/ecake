@@ -173,3 +173,10 @@ img {object-fit: contain;}
 	top: 50%;
 	left: 90%;
 }
+
+/* FAQ section */
+
+.faq-section {
+	margin-top: 100px;
+	padding: 0 60px 40px 0;
+}
