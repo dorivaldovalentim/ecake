@@ -1,5 +1,15 @@
+@font-face {
+	font-family: 'Sniglet';
+	src: url("../fonts/Sniglet-ExtraBold.ttf");
+	src: url("../fonts/Sniglet-Regular.ttf");
+};
+
 * {
-	font-family: '', sans-serif;
+	font-family: 'Sniglet' !important;
+}
+
+body {
+	font-family: 'Sniglet' !important;
 }
 
 img {object-fit: contain;}
