@@ -1,3 +1,7 @@
+:root {
+	--pink-theme: #FF66C4
+}
+
 @font-face {
 	font-family: 'Sniglet';
 	src: url("../fonts/Sniglet-ExtraBold.ttf");
@@ -9,10 +13,20 @@
 }
 
 body {
+	font-size: 13pt;
 	font-family: 'Sniglet' !important;
 }
 
 img {object-fit: contain;}
+
+a {
+	color: var(--pink-theme);
+}
+
+a:hover {
+	color: var(--pink-theme);
+	text-decoration: none;
+}
 
 .btn {
 	border-top: 1px solid rgba(0, 0, 0, .3);
