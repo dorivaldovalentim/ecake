@@ -245,3 +245,14 @@ a:hover {
 .video-section-contact-link {
 	display: block;
 }
+
+/* Footer Section */
+
+.footer-wrapper .row {
+	padding: 50px;
+}
+
+.footer-wrapper .icon {
+	width: 50px;
+	height: 50px;
+}
