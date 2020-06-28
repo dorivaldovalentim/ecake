@@ -44,38 +44,42 @@
 				
 				<ul class="navbar-nav pl-5 mt-5">
 					<li class="nav-item">
-						<a href="" class="nav-link">
-							<i class="fa fa-picture-o" aria-hidden="true"></i>
+						<a href="#gallery-section" class="nav-link d-flex align-items-center">
+							<i class="border border-secondary rounded-circle mr-1 d-flex justify-content-center align-items-center icon fa fa-2x fa-picture-o" aria-hidden="true"></i>
 							<span class="title">Galeria</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="" class="nav-link">
-							<i class="fa fa-exclamation" aria-hidden="true"></i>
+						<a href="" class="nav-link d-flex align-items-center">
+							<i class="border border-secondary rounded-circle mr-1 d-flex justify-content-center align-items-center icon fa fa-2x fa-exclamation" aria-hidden="true"></i>
 							<span class="title">E-cake</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="" class="nav-link">
-							<i class="fa fa-align-left" aria-hidden="true"></i>
+						<a href="" class="nav-link d-flex align-items-center">
+							<i class="border border-secondary rounded-circle mr-1 d-flex justify-content-center align-items-center icon fa fa-2x fa-align-left" aria-hidden="true"></i>
 							<span class="title">Blog</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="" class="nav-link">
-							<i class="fa fa-question" aria-hidden="true"></i>
+						<a href="#faq-section" class="nav-link d-flex align-items-center">
+							<i class="border border-secondary rounded-circle mr-1 d-flex justify-content-center align-items-center icon fa fa-2x fa-question" aria-hidden="true"></i>
 							<span class="title">Dúvidas Respondidas</span>
 						</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class="fa fa-phone" aria-hidden="true"></i>
+						<a href="#collapse-social-network" class="nav-link d-flex align-items-center" data-toggle="collapse">
+							<i class="border border-secondary rounded-circle mr-1 d-flex justify-content-center align-items-center icon fa fa-2x fa-phone" aria-hidden="true"></i>
 							Ligue para...
 						</a>
 						
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Whatsapp</a>
-							<a class="dropdown-item" href="#">Messenger</a>
+						<div class="collapse" id="collapse-social-network">
+							<a class="dropdown-item" href="#">
+								<i class="fa fa-whatsapp text-success" aria-hidden="true"></i>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="fa fa-comment text-primary" aria-hidden="true"></i>
+							</a>
 						</div>
 					</li>
 				</ul>
@@ -90,9 +94,9 @@
 		<div class="wrapper-content container-fluid">
 
 			<!-- Slide Section begins here -->
-			<section class="slide-section">
-				<h3>Escolha a inspiração perfeita de <span class="text-danger">clique</span> para si</h3>
-				<div id="carouselExampleControls" class="carousel slide position-relative" data-ride="carousel">
+			<section class="slide-section" id="gallery-section">
+				<div id="carouselExampleControls" class="carousel slide position-relative mx-auto" data-ride="carousel">
+					<h3>Escolha a inspiração perfeita de <span class="text-danger">clique</span> para si</h3>
 					<div class="carousel-inner">
 						<div class="carousel-item slide-images active">
 							<div class="form-check p-0 col-lg-3 col-md-6">
@@ -213,14 +217,14 @@
 						</div>
 					</div>
 
-					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
+					<a class="carousel-control-prev text-dark" href="#carouselExampleControls" role="button" data-slide="prev">
+						<i class="icon fa-2x fa fa-angle-left text-dark" aria-hidden="true"></i>
+						<span class="sr-only">Anterior</span>
 					</a>
 
-					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
+					<a class="carousel-control-next text-dark" href="#carouselExampleControls" role="button" data-slide="next">
+						<i class="icon fa-2x fa fa-angle-right text-dark" aria-hidden="true"></i>
+						<span class="sr-only">Próximo</span>
 					</a>
 
 					<div class="position-absolute btn-slide-done">
@@ -245,16 +249,16 @@
 
 						<div class="row">
 							<div class="col-md-3">
-								<img src="assets/images/cakes/cake1.png" alt="" class="img-thumbnail" />
+								<img src="assets/images/cakes/cake1.png" alt="" class="img-thumbnail border-0" />
 							</div>
 							<div class="col-md-3">
-								<img src="assets/images/cakes/cake2.png" alt="" class="img-thumbnail" />
+								<img src="assets/images/cakes/cake2.png" alt="" class="img-thumbnail border-0" />
 							</div>
 							<div class="col-md-3">
-								<img src="assets/images/cakes/cake3.png" alt="" class="img-thumbnail" />
+								<img src="assets/images/cakes/cake3.png" alt="" class="img-thumbnail border-0" />
 							</div>
 							<div class="col-md-3">
-								<img src="assets/images/cakes/cake4.png" alt="" class="img-thumbnail" />
+								<img src="assets/images/cakes/cake4.png" alt="" class="img-thumbnail border-0" />
 							</div>
 						</div>
 					</div>
@@ -294,7 +298,7 @@
 				<h3>Preencha o formulário para finalizar</h3>
 				<form action="" method="" class="row border">
 					<div class="col-md-6">
-						<div class="form-group mt-4">
+						<div class="form-group">
 							<input type="text" placeholder="Primeiro e último nome" class="form-control rounded-0 p-4" />
 							<span class="line vertical center"></span>
 						</div>
@@ -329,7 +333,7 @@
 
 			<!-- Finalize Checkout Section ends here -->
 
-			<!-- Order By  Reference Section begins here -->
+			<!-- Order By Reference Section begins here -->
 
 			<section class="order-by-reference-section">
 				<div class="row text-center border flex-column py-4 px-5">
@@ -349,11 +353,11 @@
 				</div>
 			</section>
 			
-			<!-- Order By Reference Section end here -->
+			<!-- Order By Reference Section ends here -->
 
 			<!-- FAQ Section begins here -->
 
-			<section class="faq-section">
+			<section class="faq-section" id="faq-section">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="faq-item mb-5">
@@ -401,11 +405,11 @@
 
 			<!-- Video Section begins here -->
 
-			<section class="video-section">
+			<section class="video-section" id="video-section">
 				<div class="row">
 					<div class="col-md-5">
 						<video controls width="100%">
-							<source src="assets/videos/Evanescence-Bring Me To Life lyrics - YouTube.MP4" type="video/mp4" />
+							<source src="assets/videos/video.MP4" type="video/mp4" />
 						</video>
 					</div>
 
@@ -440,21 +444,21 @@
 
 			<!-- Footer Section begins here -->
 
-			<footer class="footer-wrapper">
+			<footer class="footer-wrapper" id="footer-wrapper">
 				<div class="row text-center border flex-column px-5">
 					<h3 class="title display-3 pb-5 mb-5">viva<span class="text-danger">!</span></h3>
 					
 					<div action="" class="col-md-6 mx-auto">
 						<ul class="list-inline">
 							<li class="text-center list-inline-item">
-								<a href="" class="text-secondary text-center d-flex flex-column align-items-center justify-content-center">
+								<a href="#gallery-section" class="text-secondary text-center d-flex flex-column align-items-center justify-content-center">
 									<i class="icon fa fa-2x fa-picture-o d-flex align-items-center justify-content-center border border-secondary rounded-circle" aria-hidden="true"></i>
 									<span class="title">Galeria</span>
 								</a>
 							</li>
 
 							<li class="text-center list-inline-item">
-								<a href="" class="text-secondary text-center d-flex flex-column align-items-center justify-content-center">
+								<a href="#faq-section" class="text-secondary text-center d-flex flex-column align-items-center justify-content-center">
 									<i class="icon fa fa-2x fa-question d-flex align-items-center justify-content-center border border-secondary rounded-circle" aria-hidden="true"></i>
 									<span class="title">Dúvidas <br> respondidas</span>
 								</a>

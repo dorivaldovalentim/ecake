@@ -12,6 +12,10 @@
 	font-family: 'Sniglet' !important;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-size: 13pt;
 	font-family: 'Sniglet' !important;
@@ -77,6 +81,11 @@ a:hover {
 	height: 100%;
 }
 
+.navbar-side.fixed-top .icon {
+	width: 50px;
+	height: 50px;
+}
+
 /** WRAPPER CONTENT */
 
 .wrapper-content {
@@ -91,6 +100,12 @@ a:hover {
 
 .carousel {
 	width: 90%
+}
+
+.carousel .text-danger {
+	color: var(--pink-theme) !important;
+	border-bottom: 2px solid;
+	padding: 0 10px;
 }
 
 .carousel-inner {
@@ -127,13 +142,11 @@ a:hover {
 }
 
 .carousel-control-prev {
-	background-color: black;
 	width: 50px;
 	left: -50px;
 }
 
 .carousel-control-next {
-	background-color: black;
 	width: 50px;
 	right: -50px;
 }
@@ -158,6 +171,12 @@ a:hover {
 	padding-bottom: 40px;
 }
 
+.calendar-section .text-danger {
+	color: var(--pink-theme) !important;
+	border-bottom: 2px solid;
+	padding: 0 10px;
+}
+
 /* Finalize Checkout Section */
 
 .finalize-checkout-section form {
@@ -172,16 +191,16 @@ a:hover {
 	content: '';
 	position: absolute;
 	border: 1px solid rgba(0, 0, 0, .3);
-	z-index: -10 !important;
+	z-index: -10;
 }
 
 .finalize-checkout-section .line.vertical {
 	width: 0;
-	height: 40px;
+	height: 30px;
 }
 
 .finalize-checkout-section .line.horizontal {
-	width: 35px;
+	width: 50px;
 	height: 0;
 }
 
@@ -204,16 +223,24 @@ a:hover {
 	margin-top: 100px;
 }
 
+.order-by-reference-section .text-danger {
+	color: var(--pink-theme) !important;
+}
+
+.order-by-reference-section h1.display-2 {
+	font-family: 'Rage', sans-serif; /* Mistral, Brush Script MT */
+}
+
 .order-by-reference-section .line {
 	content: '';
 	position: absolute;
 	border: 1px solid rgba(0, 0, 0, .3);
-	z-index: -10 !important;
+	z-index: -10;
 }
 
 .order-by-reference-section .line.vertical {
 	width: 0;
-	height: 40px;
+	height: 30px;
 }
 
 .order-by-reference-section .line.vertical.center {
@@ -225,6 +252,10 @@ a:hover {
 .faq-section {
 	margin-top: 100px;
 	padding: 0 60px 40px 0;
+}
+
+.faq-section .border-danger {
+	border-color: var(--pink-theme) !important;
 }
 
 /* Video Section */
@@ -250,6 +281,10 @@ a:hover {
 
 .footer-wrapper .row {
 	padding: 50px;
+}
+
+.footer-wrapper .text-danger {
+	color: var(--pink-theme) !important;
 }
 
 .footer-wrapper .icon {
