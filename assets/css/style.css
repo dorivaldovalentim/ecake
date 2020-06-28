@@ -198,6 +198,28 @@ a:hover {
 	left: 90%;
 }
 
+/* Order By Reference Section */
+
+.order-by-reference-section {
+	margin-top: 100px;
+}
+
+.order-by-reference-section .line {
+	content: '';
+	position: absolute;
+	border: 1px solid rgba(0, 0, 0, .3);
+	z-index: -10 !important;
+}
+
+.order-by-reference-section .line.vertical {
+	width: 0;
+	height: 40px;
+}
+
+.order-by-reference-section .line.vertical.center {
+	left: 50%;
+}
+
 /* FAQ section */
 
 .faq-section {
