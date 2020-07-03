@@ -76,9 +76,12 @@ a:hover {
 
 /* Side Menu */
 
-.navbar-side.fixed-top {
+.navbar-side.fixed-top, .navbar-side.fixed-top:hover {
 	width: 300px;
 	height: 100%;
+	transition: width 1s;
+	overflow-x: hidden;
+	white-space: nowrap;
 }
 
 .navbar-side.fixed-top .icon {
