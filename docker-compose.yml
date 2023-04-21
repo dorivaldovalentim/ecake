@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+  site:
+    # build: .
+    image: nginx
+    volumes:
+      - ./:/usr/share/nginx/html
+    container_name: ecake
+    ports:
+      - ${APP_PORT}:80
+    restart: always
